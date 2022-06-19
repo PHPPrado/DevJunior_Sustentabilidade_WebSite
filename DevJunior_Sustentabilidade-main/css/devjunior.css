@@ -1,0 +1,220 @@
+    @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Patua+One&display=swap");
+    /*começo estrutura de configuraçao*/
+    
+    * {
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Arial', 'Arial Narrow', Arial, sans-serif;
+        box-sizing: border-box;
+    }
+    /*estruturação da pagina*/
+    
+    body {
+        width: 100%;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    /*fim*/
+    /*estrutura de configuração fim */
+    /*carrossel*/
+    
+    .carousel-item {
+        height: 100vh;
+        min-height: 200px;
+    }
+    
+    .carousel-caption {
+        bottom: 70px;
+    }
+    
+    .carousel-caption h5 {
+        font-size: 45px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 22px;
+        font-family: merienda;
+        color: rgb(255, 255, 255);
+    }
+    
+    .carousel-caption p {
+        width: 60%;
+        margin: auto;
+        font-size: 18px;
+        line-height: 1.9;
+        font-family: poppins;
+        text-shadow: 0 0 3px #000;
+        color: rgb(255, 255, 255);
+    }
+    
+    .carousel-caption a {
+        text-transform: uppercase;
+        background: rgb(16, 221, 253);
+        padding: 10px 30px;
+        display: inline-block;
+        color: rgb(255, 255, 255);
+        margin-top: 15px;
+    }
+    /*Responsividade carrossel*/
+    
+    @media(max-height:750px) {
+        .carousel slide {
+            flex-direction: row;
+        }
+        .carousel-item {
+            height: 70vh;
+        }
+    }
+    /*fim da responsividade*/
+    /*fim do carrossel*/
+    /*nav bar*/
+    
+    .navbar-nav a {
+        font-family: poppins;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    .navbar-brand {
+        color: rgb(250, 130, 1);
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    .navbar-light .navbar-nav .active>.nav-link,
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .nav-link.show,
+    .navbar-light .navbar-nav .show>.nav-link {
+        color: rgb(250, 130, 1);
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: rgb(16, 221, 253);
+    }
+    
+    .navbar-nav {
+        text-align: center;
+    }
+    
+    .nav-link {
+        padding: .2rem 1rem;
+    }
+    
+    .nav-link.active,
+    .nav-link:focus {
+        color: rgb(16, 221, 253);
+    }
+    
+    .navbar-toggler {
+        padding: 1px 5px;
+        font-size: 18px;
+        line-height: 0.3;
+        background: rgb(255, 255, 255);
+    }
+    
+    .navbar-light .navbar-nav .nav-link:focus,
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: rgb(247, 130, 4);
+    }
+    
+    .navbar-nav a {
+        font-size: 17px;
+        font-weight: none;
+    }
+    /*fim da nav bar*/
+    
+    .w-100 {
+        height: 100vh;
+    }
+    /*fim */
+    /*conteudo*/
+    
+     :root {
+        --font-xl: clamp(3rem, 2vw + 0.2rem, 8rem);
+        --font-md: clamp(1rem, 1.5vw + 0.1rem, 2rem);
+    }
+    
+    .imagem {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 140px;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    
+    .container-fluid p {
+        text-align: justify;
+        margin: 1rem 10rem;
+        font-size: var(--font-md);
+        text-indent: 50pt;
+    }
+    
+    .text {
+        color: rgb(21, 19, 19);
+        margin-top: 20px;
+        font-family: 'Arial', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        margin: 4rem 15rem 4rem 10rem;
+        font-weight: 300px;
+        font-size: var(--font-xl);
+        line-height: 0.8;
+        font-weight: bold;
+    }
+    
+    h3 {
+        margin-top: 20px;
+        text-align: justify;
+        margin: 1rem 10rem;
+        font-size: var(--font-md);
+    }
+    
+    p {
+        color: rgb(0, 0, 0);
+    }
+    /*fim conteudo*/
+    /*rodape*/
+    
+    footer {
+        width: 100%;
+        min-height: 250px;
+        background: rgb(16, 221, 253);
+        display: flex;
+    }
+    
+    footer .boxs {
+        width: 320px;
+        min-height: 150px;
+        padding: 20px;
+        margin-left: 25px;
+    }
+    
+    h2 {
+        color: white;
+        text-align: justify;
+    }
+    
+    span {
+        color: #000;
+    }
+    /*fim rodape*/
+    /*reponsividade rodape*/
+    
+    @media(max-width: 950px) {
+        footer {
+            flex-direction: column;
+        }
+        footer .boxs {
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+        }
+    }
+    /*fim do rodape*/

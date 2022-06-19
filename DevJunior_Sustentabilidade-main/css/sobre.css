@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Patua+One&display=swap");
+/*começo estrutura de configuraçao*/
+                        
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Arial', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+/*nav bar*/
+                        
+.navbar-nav a {
+    font-family: poppins;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+                        
+.navbar-brand {
+    color: rgb(250, 130, 1);
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+                        
+ul {
+    list-style: none;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(250, 130, 1);
+}
+                        
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(16, 221, 253);
+}
+                        
+.navbar-nav {
+    text-align: center;
+}
+                        
+.nav-link {
+    padding: .2rem 1rem;
+}
+                        
+.nav-link.active,
+.nav-link:focus {
+    color: rgb(16, 221, 253);
+}
+                        
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: rgb(255, 255, 255);
+}
+                        
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(247, 130, 4);
+}
+                        
+.navbar-nav a {
+    font-size: 17px;
+    font-weight: none;
+}
+
+ /*fim da nav bar*/
+
+/*conteudo*/
+                        
+.imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 140px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+                        
+.tema {
+    color: rgb(21, 19, 19);
+    margin-top: 15px;
+    font-family: 'Arial', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+
+.texto {
+    margin: 1rem 10rem;
+    text-indent: 50pt;
+}
+
+/*fim conteudo*/
+
+/*rodape*/
+/*Aqui nesta formatação, a foto do integrante Gustavo ficou desformatada, 
+por isso tive que criar uma formatação só para ela */
+/*Formatação das fotos na pagina*/
+                        
+.inte {
+    height: 22s0px;
+    width: 180px;
+}
+                        
+.fotopedro {
+    height: 220px;
+    width: 210px;
+}
+         
+.fotogustavo{
+    height: 220px;
+    width: 210px;
+}
+
+.fotokaue{
+    height: 220px;
+    width: 200px;
+}
+
+.fotopacheco{
+    height: 220px;
+    width: 200px;
+}
+
+.fotoigor{
+    height: 220px;
+    width: 200px;
+}
+.container {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+                        
+.boxs {
+    padding: 15px;
+    width: 100%;
+}
+                        
+h3 {
+    margin-top: 20px;
+    text-align: justify;
+}
+                        
+span {
+    color: #000;
+}
+                        
+.conteudo {
+    font-size: 18px;
+}
+
+/*Termino da Formatação*/
+
+/*formulário*/
+                        
+.form {
+    margin: auto;
+    width: 180px;
+}
+                        
+h4 {
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+                        
+.btn {
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+}
+                        
+.btn:hover {
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+                        
+.btn:active {
+    background-color: aqua;
+    color: black;
+    font-size: 18px;
+}
+                        
+.btn:visited {
+    background-color: green;
+    color: crimson;
+}
+/*fim do rodape*/
+
+/*Formatação das imagens das redes sociais*/
+                        
+.gmail {
+    height: 50px;
+    width: 50px;
+}
+                        
+.int {
+    width: 200px;
+    height: 200px;
+}
+
+/*redes sociais da parte contate-nos*/
+
+.email {
+    color: red;
+}
+                        
+.dis {
+    color: blue;
+}
+
+footer {
+    width: 100%;
+    min-height: 250px;
+    background: rgb(16, 221, 253);
+    display: flex;
+}
+                        
+footer .boxs {
+    width: 320px;
+    min-height: 150px;
+    padding: 20px;
+    margin-left: 25px;
+}
+                        
+h2 {
+    color: white;
+    text-align: justify;
+}
+                        
+p {
+    color: rgb(0, 0, 0);
+}
+                        
+h3 {
+    margin-top: 20px;
+    text-align: justify;
+}
+                        
+span {
+    color: #000;
+}
+                        
+.w-100 {
+    height: 100vh;
+}
+
+/*fim rodape*/
+                        
+@media(max-width: 950px) {
+    footer {
+        flex-direction: column;
+        padding: 0px;
+    }
+    footer .boxs {
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+    }
+}
