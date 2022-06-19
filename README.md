@@ -1,9 +1,9 @@
 # DevJunior_Sustentabilidade_WebSite
 <h2>Um Site sobre Sustentabilidade</h2>
 
-<div align="center">
-<img src="DevJunior.png" width="2000px" alt="Imagem do site" />
-</div>
+
+![DevJunior](https://user-images.githubusercontent.com/104167056/174487842-96926093-b02f-4c94-831a-cb7b6de0640a.png)
+
 
 ---
 
